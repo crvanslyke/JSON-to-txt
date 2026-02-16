@@ -1,0 +1,35 @@
+{
+  "experiment_completed": "2026-02-16T04:05:12.836233",
+  "config": {
+    "api_base": "http://localhost:1234/v1",
+    "api_key": "lm-studio",
+    "model": "meta/llama-3.3-70b",
+    "config_mode": "local",
+    "iterations": 3,
+    "delay_min_seconds": 2,
+    "delay_max_seconds": 5,
+    "output_directory": "outputs",
+    "scenario_name": "climate_adaptation",
+    "temperature": 0.7,
+    "max_tokens": 2000
+  },
+  "system_prompt": "You are a science communicator working with Louisiana Sea Grant to develop educational materials about climate change adaptation for rural rice and crawfish farmers in southern Louisiana. Your target audience includes multi-generational farming families in the Acadiana region who have been practicing integrated rice-crawfish agriculture for decades.\n\nDo not reference any prior conversations, previously generated content, or stored information. Respond only based on this prompt.",
+  "user_prompt": "Create a two-page informational flyer (approximately 600 words) for rice and crawfish farmers in rural Louisiana about adapting to climate change. These are mostly family operations that rotate between rice cultivation and crawfish production in the same fields.\n\nThe flyer should address:\n1. How changing weather patterns might affect their rice-crawfish rotation cycle\n2. Practical adaptation strategies they can implement\n3. How to make decisions about timing for flooding fields and harvesting\n\nThe content should be accessible to farmers who may be skeptical of outside expertise. Write the complete flyer text, ready for design layout.",
+  "results": [
+    {
+      "iteration": 1,
+      "status": "error",
+      "error_message": "Connection error."
+    },
+    {
+      "iteration": 2,
+      "status": "error",
+      "error_message": "Connection error."
+    },
+    {
+      "iteration": 3,
+      "status": "error",
+      "error_message": "Connection error."
+    }
+  ]
+}
